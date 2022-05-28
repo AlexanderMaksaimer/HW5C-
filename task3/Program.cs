@@ -52,5 +52,7 @@ int max = 0;
 
 (min,max) = maxAndMin(array);
 
-Console.WriteLine($" - > min={min} , max={max} , max - min = {max-min}");
+Console.WriteLine($"Минимальное значение массива - > {min}");
+Console.WriteLine($"Максимальное значение массива -> {max}");
+Console.WriteLine($"Разница между максимальным и минимальным значением массива равняется {max-min}");
 
